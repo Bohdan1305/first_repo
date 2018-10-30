@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    
+    <header>
+        <a href="#">Gmail</a>
+        <a href="#">Зображення</a>
+        <i class="menu fa fa-align-justify fa-lg"></i>
+        <i class="fa fa-adjust fa-lg"></i>
+        <i class="fa fa-adn fa-2x"></i>
+    </header>
+        <div class="dropmenu">
+            <div class="row">
+                <div class="block">
+                    <img src="img/img1.png">
+                    <span>Обл.запис</span>
+                </div>
+                <div class="block">
+                    <img src="img/img2.png">
+                    <span>Пошук</span>
+                </div>
+                <div class="block">
+                    <img src="img/img3.png">
+                    <span>Карти</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="block">
+                    <img src="img/img4.png">
+                    <span>YouTube</span>
+                </div>
+                <div class="block">
+                    <img src="img/img5.png">
+                    <span>Новини</span>
+                </div>
+                <div class="block">
+                    <img src="img/img6.png">
+                    <span>Gmail</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="block">
+                    <img src="img/img7.png">
+                    <span>Контакты</span>
+                </div>
+                <div class="block">
+                    <img src="img/img8.png">
+                    <span>Дискr</span>
+                </div>
+                <div class="block">
+                    <img src="img/img9.png">
+                    <span>Календарь</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="block">
+                    <img src="img/img10.png">
+                    <span>Google+</span>
+                </div>
+                <div class="block">
+                    <img src="img/img11.png">
+                    <span>Перекладач</span>
+                </div>
+                <div class="block">
+                    <img src="img/img12.png">
+                    <span>Фотознімки</span>
+                </div>
+            </div>
+        </div>
+        <div class="wraper">
+            <section class="logo">
+                <img src="googlelogo.png">
+            </section>
+            <section id="search">
+                <input type="text" class="search">
+                <i class="fa fa-align-justify fa-lg"></i>
+                <img src="mcr.png">
+            </section>
+            <section class="buttons">
+                    <button type="button">Пошук Google</button>
+                    <button type="button">Мені пощастить</button>
+            </section>
+            <section class="language">
+                <p>Мова Google:</p>
+                <a href="#">русский</a>
+            </section>
+        </div>
+            
+        <div class="footer">    
+            <section class="bottom">
+                <div class="ukraine">
+                    <p>Україна</p>
+                </div>
+                <div class="botom">
+                    <div class="left">
+                        <a href="#">Реклама</a>
+                        <a href="#">Bussines</a>
+                        <a href="#">Про Google</a>
+                    </div>
+                    <div class="right">
+                        <a href="#">Конфіденційність</a>
+                        <a href="#">Умови</a>
+                        <a href="#">Налаштування</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    <script>
+        document.querySelector('.menu').addEventListener('click', function() {
+            document.querySelector('.dropmenu').classList.toggle('hide')
+        })
+    </script>
+</body>
+</html>
